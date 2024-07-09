@@ -59,12 +59,33 @@ section{
     border: none;
     font-size: 16px;
 }
-.box1{
-    width: 400px;
+.box2{
+    width: 300px;
     height: 300px;
     padding: 15px;
     border: 2px;
     border-radius: 30px;
-    background-color: white;
-    background-image: url(Images/modal-bread.jpg);
+    background-color: #202023;
+    margin: 100px;
+}
+.box2:hover{
+    animation-name: fade;
+    animation: fade 1s;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: white;
+}
+h3{
+    font-size: 40px;
+}
+@keyframes fade{
+    from {background-color: #202023;}
+    to {background-color: rgb(212,157,76);}
+}
+.btn{
+    margin-bottom: 40px;
 }
