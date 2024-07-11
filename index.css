@@ -20,6 +20,9 @@ nav{
 .list {
     list-style: none;
     display: flex;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    font-size: 30px;
 }
 .list li{
 margin: 0 15px;
@@ -36,10 +39,10 @@ section{
     padding-top: 130px;
 }
 .box{
-    width: 40%;
+    width: 500px;
     height: 300px;
-    margin-left: 60px;
-    margin-top: 70px;
+    margin-left: 500px;
+    margin-top: 40px;
 }
 .h1{
     font-size: 50px;
@@ -75,12 +78,13 @@ section{
 .container2{
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 p{
     color: white;
 }
 h3{
-    font-size: 40px;
+    font-size: 30px;
 }
 @keyframes fade{
     from {background-color: #202023;}
@@ -88,4 +92,35 @@ h3{
 }
 .btn{
     margin-bottom: 40px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.box2{
+    margin: 4px;
+    display: flex;
+}
+.price{
+    height: 180px;
+    width: 100px;
+    color: aliceblue;
+    
+}
+.img{
+    margin-top: 30px;
+}
+img{
+    width: 140px;
+}
+.btn{
+    background-color: #b47b48;
+    padding: 7px;
+    border-radius: 7px;
+    margin-top: 100px;
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
 }
