@@ -31,7 +31,7 @@ margin: 0 15px;
     width: 100%;
     border-bottom: 4px solid rgb(148, 148, 34);
 } 
-section{
+.pricesection{
     height: 950px;
     background-image: url(Images/bread.jpg);
     background-size: cover;
@@ -44,7 +44,7 @@ section{
     margin-left: 500px;
     margin-top: 40px;
 }
-.h1{
+h1{
     font-size: 50px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,6 +61,7 @@ section{
     color: aliceblue;
     border: none;
     font-size: 16px;
+    margin-top: 20px;
 }
 .box2{
     width: 300px;
@@ -84,7 +85,7 @@ p{
     color: white;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 @keyframes fade{
     from {background-color: #202023;}
@@ -106,6 +107,7 @@ h3{
     height: 180px;
     width: 100px;
     color: aliceblue;
+    margin-top: 40px;
     
 }
 .img{
@@ -118,9 +120,40 @@ img{
     background-color: #b47b48;
     padding: 7px;
     border-radius: 7px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .link{
     text-decoration: none;
     color: aliceblue;
+}
+.black-box {
+    background-color: #202023;
+    color: #fff;
+    padding: 20px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    text-align: center;
+    margin: 10px;
+}
+.item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.item p{
+    margin-top: 10px;
 }
