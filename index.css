@@ -157,3 +157,76 @@ h2{
 .item p{
     margin-top: 10px;
 }
+.kup{
+    width: 180px;
+    background-color: #b47b48;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.botmenu{
+    background-color: black;
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/gfbvb.png);
+    background-repeat: repeat-x;
+}
+.align-container{
+    justify-content: space-around;
+    display: flex;
+    height: auto;
+}
+.align{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.align img{
+    height: auto;
+}
+
+#align2{
+    margin-left: 500px;
+    margin-bottom: 400px;
+}
+#align3{
+    margin-top: 350px;
+}
+.title{
+    text-align: center;
+}
+.caption{
+    width: 100%;
+    background-color: #837e7ee8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: 400
+}
+.menuimg{
+    height: auto;
+    width: 300px;
+}
+.section4{
+    background-image: url(Images/bckgrd.jpeg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.why{
+    margin-left: 400px;
+    color: #fff;
+    font-size: 35px;
+}
+.icon{
+    margin-top: 90px;
+    margin-left: 400px;
+}
