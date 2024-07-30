@@ -245,3 +245,14 @@ footer{
     display: flex;
     margin-left: 300px;
 }
+.how{
+    margin-left: 50px;
+    height: 50px;
+}
+.when{
+    margin-left: 150px;
+}
+.info{
+    margin-top: 100px;
+    margin-right: px;
+}
