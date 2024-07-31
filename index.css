@@ -1,22 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     width: 100%;
     height: 130px;
-    background-color: rgba(194, 193, 193, 0.349
-    );
-   text-align: center;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   position: fixed;
-   font-size: 40px;
-   z-index: 1000;
+    background-color: rgba(194, 193, 193, 0.349);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-size: 40px;
+    z-index: 1000;
 
 }
+
 .list {
     list-style: none;
     display: flex;
@@ -24,37 +25,44 @@ nav{
     margin-bottom: 15px;
     font-size: 30px;
 }
-.list li{
-margin: 0 15px;
+
+.list li {
+    margin: 0 15px;
 }
-.list li a:hover{
+
+.list li a:hover {
     width: 100%;
     border-bottom: 4px solid rgb(148, 148, 34);
-} 
+}
+
 /* Section 1 */
-.pricesection{
+.pricesection {
     height: 950px;
     background-image: url(Images/bread.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 130px;
 }
-.box{
+
+.box {
     width: 500px;
     height: 300px;
     margin-left: 500px;
     margin-top: 40px;
 }
-h1{
+
+h1 {
     font-size: 50px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.prgone{
+
+.prgone {
     font-size: 22px;
     color: white;
 }
-.btnone{
+
+.btnone {
     width: 200px;
     background-color: #b47b48;
     padding: 25px;
@@ -64,7 +72,8 @@ h1{
     font-size: 16px;
     margin-top: 20px;
 }
-.box2{
+
+.box2 {
     width: 300px;
     height: 300px;
     padding: 15px;
@@ -73,93 +82,119 @@ h1{
     background-color: #202023;
     margin: 100px;
 }
-.box2:hover{
+
+.box2:hover {
     animation-name: fade;
     animation: fade 1s;
 }
-.container2{
+
+.container2 {
     display: flex;
     justify-content: center;
     margin-top: 150px;
 }
-p{
+
+p {
     color: white;
 }
-h3{
+
+h3 {
     font-size: 25px;
 }
-@keyframes fade{
-    from {background-color: #202023;}
-    to {background-color: rgb(212,157,76);}
+
+@keyframes fade {
+    from {
+        background-color: #202023;
+    }
+
+    to {
+        background-color: rgb(212, 157, 76);
+    }
 }
-.btn{
+
+.btn {
     margin-bottom: 40px;
 }
-.container2{
+
+.container2 {
     display: flex;
     flex-wrap: wrap;
-  
+
 }
-.box2{
+
+.box2 {
     margin: 4px;
     display: flex;
 }
-.price{
+
+.price {
     height: 180px;
     width: 100px;
     color: aliceblue;
     margin-top: 40px;
-    
+
 }
-.img{
+
+.img {
     margin-top: 30px;
 }
-img{
+
+img {
     width: 140px;
 }
-.btn{
+
+.btn {
     background-color: #b47b48;
     padding: 7px;
     border-radius: 7px;
     margin-top: 50px;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: aliceblue;
 }
+
 /* Section 2 */
 .black-box {
     background-color: #202023;
     color: #fff;
     padding: 20px;
 }
-h2{
+
+h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
-.centered{
+
+.centered {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.content{
+
+.content {
     display: flex;
     justify-content: center;
 }
-.item{
+
+.item {
     text-align: center;
     margin: 10px;
 }
-.item img{
+
+.item img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
-.item p{
+
+.item p {
     margin-top: 10px;
 }
-.kup{
+
+.kup {
     width: 180px;
     background-color: #b47b48;
     padding: 20px;
@@ -168,20 +203,23 @@ h2{
     font-weight: bold;
     font-size: 20px;
 }
+
 /* Section 3 */
-.botmenu{
+.botmenu {
     background-color: black;
     width: 100%;
     height: 900px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/gfbvb.png);
     background-repeat: repeat-x;
 }
-.align-container{
+
+.align-container {
     justify-content: space-around;
     display: flex;
     height: auto;
 }
-.align{
+
+.align {
     width: 200px;
     padding: 10px;
     margin: 5px;
@@ -190,20 +228,24 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-.align img{
+
+.align img {
     height: auto;
 }
 
-#align2{
+#align2 {
     margin-left: 500px;
 }
-#align3{
+
+#align3 {
     margin-top: 430px;
 }
-.title{
+
+.title {
     text-align: center;
 }
-.caption{
+
+.caption {
     width: 100%;
     background-color: #837e7ee8;
     text-align: center;
@@ -212,47 +254,69 @@ h2{
     color: aliceblue;
     font-weight: 400
 }
-.menuimg{
+
+.menuimg {
     height: auto;
     width: 300px;
 }
+
 /* Section 4 */
-.section4{
+.section4 {
     background-image: url(Images/bckgrd.jpeg);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.why{
+
+.why {
     margin-left: 400px;
     color: #fff;
     font-size: 35px;
 }
-.icon{
-    margin-top: 90px;
-    margin-left: 400px;
+
+.icon {
+    margin-top: 350px;
+    margin-left: 700px;
 }
-footer{
+
+/* Footer */
+footer {
     width: 100%;
-    height: 1200px;
+    height: 700px;
     background-color: #202023;
 }
-.where{
+
+.where {
     margin-left: 300px;
+    width: 300px;
 }
-.smalldiv{
+
+.smalldiv {
     display: flex;
     margin-left: 300px;
 }
-.how{
+
+.how {
     margin-left: 50px;
     height: 50px;
 }
-.when{
+
+.when {
     margin-left: 150px;
 }
-.info{
+
+.info {
+    display: flexbox;
     margin-top: 100px;
-    margin-right: px;
+    margin-right: 100pxpx;
+
+}
+
+.list {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 700px;
+    list-style: none;
 }
