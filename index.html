@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -30,8 +31,24 @@
                 ipsam. Iure aliquam quas commodi veritatis repellat distinctio alias quod, in, cupiditate nemo
                 repellendus harum veniam soluta aperiam reprehenderit nisi ad delectus possimus architecto, inventore
                 ducimus sunt obcaecati tempora. Minima, voluptates?</p>
-            <button class="btnone"><a class="link" href="kayıt.html" target="_blank">SHOP NOW</a></button>
         </div>
+        <label class="btnone" for="">Shop Now</label>
+        <input class="modal-checkbox" id="modalToggle" type="checkbox">
+        <!-- Modal Window -->
+         <div id="myModal" class="modal">
+            <div class="modal-content">
+                <label for="modalToggle">Close</label>
+                <div class="bread-box">
+                    <h1 class="breadh1">TRADITIONAL ARTISAX BAKERY</h1>
+                    <label for="">Name</label>
+                    <input type="text">
+                    <label for="">E-mail</label>
+                    <input type="text">
+                    <button>Sign Up</button>
+                </div>
+                <div class="bread-box" id="breadbcg"></div>
+            </div>
+         </div>
 
         <div class="container2">
             <div class="box2">
@@ -131,9 +148,9 @@
             <h1>Why TRADITIONAL ARTISAX BAKERY</h1>
         </div>
         <div class="icon">
-            <img src="Images/hand.jpeg" alt="">
-            <img src="Images/hand.jpeg" alt="">
-            <img src="Images/hand.jpeg" alt="">
+            <span class="icon-cup"></span>
+            <span class="icon-food"></span>
+            <span class="icon-shop"></span>
         </div>
     </section>
     <!-- Footer -->
