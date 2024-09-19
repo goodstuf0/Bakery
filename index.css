@@ -34,7 +34,29 @@ nav {
     width: 100%;
     border-bottom: 4px solid rgb(148, 148, 34);
 }
-
+.glow{
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.425) 0%, rgb(139, 69, 19) 50%, rgba(255, 255, 255, 0.712) 100%);
+    top: 126px;
+}
+.glow::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.425) 0%, rgb(139, 69, 19) 50%, rgba(255, 255, 255, 0.712) 100%);
+    animation: laser 5s infinite;
+}
+@keyframes laser{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
 /* Section 1 */
 .pricesection {
     height: 950px;
@@ -75,9 +97,10 @@ h1 {
     top: 500px;
     left: 500px;
     text-align: center;
+    cursor: pointer;
 }
 .modal{
-    /* display: none; */
+    display: none;
     background-color: #20202388;
     z-index: 1;
     position: fixed;
@@ -89,33 +112,59 @@ h1 {
     align-items: center;
 }
 .modal-content{
-    width: 800px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
     background-color: white;
     border-radius: 45px;
     position: absolute;
     left: 550px;
     top: 300px;
-    background-image: url(Images/breadmart.png);
     display: flex;
     background-repeat: no-repeat;
 }
-.bread-box{
+.inp{ 
+    display: block;
+    margin: 50PX;
+    border: none;
+}
+.sig{
+margin-left: 50px
+}
+.bread-box{ 
     color: black;
 }
 .breadh1{
 color: black;
+width: 300px;
+font-weight: lighter;
 }
 #breadbcg{
     width: 400px;
     height: 300px;
     position: absolute;
-    top: 270px;
-    left: 500px;
-    background-image: url(Images/breadmart.png);
+    top: 200px;
+    left: 300px;
+    background-image: url(Images/modal-bread.jpg);
     background-repeat: no-repeat;
-}
 
+}
+/* when the modal window is open */
+.modal-checkbox:checked + .modal{
+    display: flex;
+}
+.modal-checkbox{
+    display: none;
+}
+/* button to close */
+.close{
+    color: black;
+    position: absolute;
+    left: 750px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
 .box2 {
     width: 300px;
     height: 300px;

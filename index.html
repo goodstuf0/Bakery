@@ -19,6 +19,7 @@
             <li><a class="link" href="">Comments</a></li>
         </ul>
     </nav>
+    <div class="glow"></div>
     <!-------- Section 1 -------->
     <section class="pricesection">
         <div class="box">
@@ -32,19 +33,17 @@
                 repellendus harum veniam soluta aperiam reprehenderit nisi ad delectus possimus architecto, inventore
                 ducimus sunt obcaecati tempora. Minima, voluptates?</p>
         </div>
-        <label class="btnone" for="">Shop Now</label>
+        <label for="modalToggle" class="btnone">SHOP NOW</label>
         <input class="modal-checkbox" id="modalToggle" type="checkbox">
         <!-- Modal Window -->
          <div class="modal">
             <div class="modal-content">
-                <label for="modalToggle">Close</label>
+                <label class="close" for="modalToggle">×</label>
                 <div class="bread-box">
-                    <h1 class="breadh1">TRADITIONAL ARTISAX BAKERY</h1>
-                    <label for="">Name</label>
-                    <input type="text">
-                    <label for="">E-mail</label>
-                    <input type="text">
-                    <button>Sign Up</button>
+                    <h1 class="breadh1">TRADITIONAL ARTISAX BAKERY</h1>                
+                    <input required class="inp" type="text" placeholder="Your Name">
+                    <input required class="inp" type="text" placeholder="E-mail address">
+                    <button class="sig">Sign Up</button>
                 </div>
                 <div class="bread-box" id="breadbcg"></div>
             </div>
